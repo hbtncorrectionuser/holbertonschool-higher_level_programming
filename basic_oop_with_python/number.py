@@ -21,9 +21,9 @@ class Number():
         ''' Defines the subtraction operator '''
         return self.get_value() - other.get_value()
 
-    def __mul__(self, other):
-        ''' Defines the multiplication operator '''
-        return self.get_value() * other.get_value()
+    #def __mul__(self, other):
+    #    ''' Defines the multiplication operator '''
+    #    return self.get_value() * other.get_value()
 
     def __div__(self, other):
         ''' Defines the division operator '''
